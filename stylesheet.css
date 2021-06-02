@@ -158,7 +158,8 @@ input + svg {
     position: relative;
 } 
 
- .beers, .beer {
+/*Removed comma*/
+ .beers .beer {
     display: grid;
     grid-auto-columns: 1fr;
     align-items: end;
@@ -166,8 +167,8 @@ input + svg {
     text-align: center;
     width: 100%;
 }
-
-.beer, .beer__img {
+/*Removed comma*/
+.beer .beer__img {
     margin: auto;
     height: 20rem;
 }
